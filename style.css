@@ -1,0 +1,156 @@
+ body {
+  color:#09015F;     /* Text color */
+  background: linear-gradient(#e66465, #9198e5) ;
+  opacity: 0.9;
+  font-family: karla, sans-serif;
+	font-size: 17px;
+	front-weight: lighter;
+}
+h1{
+font-family: 'lora', cursive;
+font-size: 40px;
+color: whitesmoke;
+text-align: left;
+}
+h2{
+  font-family: 'Grandstander', cursive;
+  color: whitesmoke;
+  front-weight: lighter;
+  font-size: 35px;
+
+}
+h3{
+	font-family: 'Dancing script', cursive;
+	font-size: 42px;
+	color: whitesmoke;
+  front-weight: lighter;
+
+}
+img {
+	width: 150px;
+	height: 150px;
+}
+a{
+	 text-decoration: none;
+	 color: 0F2C67;
+	 front-weight: bold; 
+}
+   a:hover {
+  color: royalblue;
+  text-decoration: none;
+}
+div{
+	margin: 8px 10px 10px;  
+}
+@media (max-width: 500px){
+	div {
+		width: 300px;
+	}
+}
+
+
+#banner{
+	border-style: none;
+	background-image: url('soleil.jpg');
+	border: none;
+	font-size: 30px;
+	color: white;
+	Padding: 20px;
+	border-radius: 4px;
+	box-shadow: 0 15px 35px rgba( 50,50,93.1);
+	text-align: center ;
+  height: 300;
+  margin: 8px 10px 10px;
+  font-family: 'merienda';
+
+}
+	
+
+#global{
+	overflow: auto;
+	text-align: justify;
+	margin: none;
+ }
+
+#droite #gauche{
+	display: flex;
+	horizontal-align: top;
+	
+}
+#gauche{
+	width: 45%;
+  float: left;
+  border: 5px solid #FF9C71;
+  margin-block: 60px;
+  padding: 20;
+  border-radius: 12px;
+  box-shadow: 0 15px 35px rgba( 50,50,93.1);
+  text-align: center;
+  height: 165px;
+  background-color: #FF9C71;
+}
+
+#droite{
+	width: 44%;
+  float: right;
+  border: 5px solid #FF9C71;
+  margin-block: 60px;
+  padding: 20;
+  border-radius: 12px;
+  box-shadow: 0 15px 35px rgba( 50,50,93.1);
+  text-align: center;
+  height: 165;
+  background-color: #FF9C71;
+}
+
+#background{
+	background-image: url('alibad.jpg');
+	background-color: white;
+	weight: 30px;
+	height: 90px;
+	margin: 100px;
+	
+}
+
+#p{
+	background-image: linear-gradient(to bottom,rgba(169, 169, 169, 0.52), rgba(255, 255, 255, 0.73)), url('alibad.jpg');
+	background-position: top right;
+	background-repeat: no-repeat;
+	weight: 40%;
+	height: 400px;
+	Padding: 50px;
+	border-radius: 4px;
+	box-shadow: 0 5px 15px rgba(192, 192, 192) ;
+	text-align: left;
+	text-align: justify;
+	margin-block: 100px;
+}
+#lien{
+	text-align: center;
+	font-family: 'milonga', cursive;
+	padding: 20px;
+	border-spacing: 5px;
+	image-orientation: revert;
+
+	
+}
+#lien a{
+   padding: 0 100px;
+   line-height: 1.4;
+   font-size: 100;
+   
+}
+
+#moi {
+	width: 280px;
+	height: 350px;
+	border: 4px solid #ddd;
+	border-radius: 4px;
+
+}
+.
+
+
+
+
+
